@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,6 +97,11 @@
     margin-top: 20px;
     background: #fff;
   }
+
+  .fallback-area {
+    margin-top: 10px;
+    font-size: 15px;
+  }
 </style>
 
 <script>
@@ -164,7 +170,6 @@
       <li><a onclick="loadDoc('Manual_v2.0_TR.pdf')">Türkçe</a></li>
       <li><a onclick="loadDoc('Manual_v2.0_AR.pdf')">العربية</a></li>
     </ul>
-    <p>If the PDF does not display, <a onclick="openCurrentPdf()">click here to open it.</a></p>
   </div>
 
   <!-- ▼▼▼ v1.0 ▼▼▼ -->
@@ -199,11 +204,15 @@
       <li><a onclick="loadDoc('Manual_v1.0_TR.pdf')">Türkçe</a></li>
       <li><a onclick="loadDoc('Manual_v1.0_AR.pdf')">العربية</a></li>
     </ul>
-    <p>If the PDF does not display, <a onclick="openCurrentPdf()">click here to open it.</a></p>
   </div>
 
   <!-- ▼▼▼ PDF 表示エリア ▼▼▼ -->
   <iframe id="docFrame" src="Manual_v2.0_EN.pdf?t=initial"></iframe>
+
+  <!-- ▼▼▼ click here はここに1個だけ ▼▼▼ -->
+  <div class="fallback-area">
+    If the PDF does not display, <a onclick="openCurrentPdf()">click here to open it.</a>
+  </div>
 
 </div>
 
