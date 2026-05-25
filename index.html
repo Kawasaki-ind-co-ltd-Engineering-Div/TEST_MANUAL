@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Manual Version Test</title>
+<title>Supplementary Parts and Dealer Options – Instructions for Use</title>
 
 <style>
   body {
@@ -29,7 +29,7 @@
   }
 
   .container {
-    max-width: 960px;
+    max-width: 1100px;
     margin: 30px auto 60px;
     padding: 0 20px;
   }
@@ -46,14 +46,14 @@
     border-left: 6px solid #e6b800;
     background: #fff8d6;
     padding: 12px 14px;
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 16px;
     line-height: 1.5;
   }
 
   .version-hint {
     margin-top: 14px;
-    font-size: 13px;
+    font-size: 14px;
     font-style: italic;
   }
 
@@ -67,8 +67,10 @@
 
   .block h2 {
     margin-top: 0;
-    font-size: 18px;
+    font-size: 20px;
     color: #003399;
+    border-bottom: 2px solid #003399;
+    padding-bottom: 5px;
   }
 
   .block ul {
@@ -77,18 +79,14 @@
   }
 
   .block li {
-    margin-bottom: 4px;
-    font-size: 14px;
-  }
-
-  .block p {
-    margin-top: 12px;
-    font-size: 13px;
+    margin-bottom: 6px;
+    font-size: 15px;
   }
 
   a {
     color: #003399;
     text-decoration: underline;
+    cursor: pointer;
   }
 
   iframe#docFrame {
@@ -101,12 +99,10 @@
 </style>
 
 <script>
-  // 言語リンクをクリックしたときに、その PDF を iframe に表示
   function loadDoc(file) {
     document.getElementById("docFrame").src = file + "?t=" + Date.now();
   }
 
-  // 「click here to open it.」で、今 iframe に表示している PDF を別タブで開く
   function openCurrentPdf() {
     var src = document.getElementById("docFrame").src;
     if (!src || src === "") return;
@@ -130,7 +126,8 @@
     <p class="version-hint">You can determine the applicable version based on the purchase date.</p>
 
     <div class="note-box">
-      These manuals are intended for customers, dealers, and service personnel.  
+      <strong>Note:</strong><br>
+      These manuals are intended for customers, dealers, and service personnel.<br>
       Please use the language version appropriate for your region.
     </div>
   </div>
@@ -139,73 +136,73 @@
   <div class="block">
     <h2>Language Versions – Manual v2.0 (Valid From: 2026‑05‑25)</h2>
     <ul>
-      <li><a href="Manual_v2.0_EN.pdf" onclick="loadDoc('Manual_v2.0_EN.pdf'); return false;">English</a></li>
-      <li><a href="Manual_v2.0_DE.pdf" onclick="loadDoc('Manual_v2.0_DE.pdf'); return false;">Deutsch</a></li>
-      <li><a href="Manual_v2.0_FR.pdf" onclick="loadDoc('Manual_v2.0_FR.pdf'); return false;">Français</a></li>
-      <li><a href="Manual_v2.0_IT.pdf" onclick="loadDoc('Manual_v2.0_IT.pdf'); return false;">Italiano</a></li>
-      <li><a href="Manual_v2.0_ES.pdf" onclick="loadDoc('Manual_v2.0_ES.pdf'); return false;">Español</a></li>
-      <li><a href="Manual_v2.0_PT.pdf" onclick="loadDoc('Manual_v2.0_PT.pdf'); return false;">Português</a></li>
-      <li><a href="Manual_v2.0_NL.pdf" onclick="loadDoc('Manual_v2.0_NL.pdf'); return false;">Nederlands</a></li>
-      <li><a href="Manual_v2.0_DA.pdf" onclick="loadDoc('Manual_v2.0_DA.pdf'); return false;">Dansk</a></li>
-      <li><a href="Manual_v2.0_SV.pdf" onclick="loadDoc('Manual_v2.0_SV.pdf'); return false;">Svenska</a></li>
-      <li><a href="Manual_v2.0_NO.pdf" onclick="loadDoc('Manual_v2.0_NO.pdf'); return false;">Norsk</a></li>
-      <li><a href="Manual_v2.0_FI.pdf" onclick="loadDoc('Manual_v2.0_FI.pdf'); return false;">Suomi</a></li>
-      <li><a href="Manual_v2.0_PL.pdf" onclick="loadDoc('Manual_v2.0_PL.pdf'); return false;">Polski</a></li>
-      <li><a href="Manual_v2.0_CS.pdf" onclick="loadDoc('Manual_v2.0_CS.pdf'); return false;">Čeština</a></li>
-      <li><a href="Manual_v2.0_SK.pdf" onclick="loadDoc('Manual_v2.0_SK.pdf'); return false;">Slovenčina</a></li>
-      <li><a href="Manual_v2.0_HU.pdf" onclick="loadDoc('Manual_v2.0_HU.pdf'); return false;">Magyar</a></li>
-      <li><a href="Manual_v2.0_RO.pdf" onclick="loadDoc('Manual_v2.0_RO.pdf'); return false;">Română</a></li>
-      <li><a href="Manual_v2.0_BG.pdf" onclick="loadDoc('Manual_v2.0_BG.pdf'); return false;">Български</a></li>
-      <li><a href="Manual_v2.0_EL.pdf" onclick="loadDoc('Manual_v2.0_EL.pdf'); return false;">Ελληνικά</a></li>
-      <li><a href="Manual_v2.0_ET.pdf" onclick="loadDoc('Manual_v2.0_ET.pdf'); return false;">Eesti</a></li>
-      <li><a href="Manual_v2.0_LT.pdf" onclick="loadDoc('Manual_v2.0_LT.pdf'); return false;">Lietuvių</a></li>
-      <li><a href="Manual_v2.0_LV.pdf" onclick="loadDoc('Manual_v2.0_LV.pdf'); return false;">Latviešu</a></li>
-      <li><a href="Manual_v2.0_SL.pdf" onclick="loadDoc('Manual_v2.0_SL.pdf'); return false;">Slovenščina</a></li>
-      <li><a href="Manual_v2.0_HR.pdf" onclick="loadDoc('Manual_v2.0_HR.pdf'); return false;">Hrvatski</a></li>
-      <li><a href="Manual_v2.0_SR.pdf" onclick="loadDoc('Manual_v2.0_SR.pdf'); return false;">Srpski</a></li>
-      <li><a href="Manual_v2.0_MK.pdf" onclick="loadDoc('Manual_v2.0_MK.pdf'); return false;">Македонски</a></li>
-      <li><a href="Manual_v2.0_TR.pdf" onclick="loadDoc('Manual_v2.0_TR.pdf'); return false;">Türkçe</a></li>
-      <li><a href="Manual_v2.0_AR.pdf" onclick="loadDoc('Manual_v2.0_AR.pdf'); return false;">العربية</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_EN.pdf')">English</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_DE.pdf')">Deutsch</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_FR.pdf')">Français</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_IT.pdf')">Italiano</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_ES.pdf')">Español</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_PT.pdf')">Português</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_NL.pdf')">Nederlands</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_DA.pdf')">Dansk</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_SV.pdf')">Svenska</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_NO.pdf')">Norsk</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_FI.pdf')">Suomi</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_PL.pdf')">Polski</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_CS.pdf')">Čeština</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_SK.pdf')">Slovenčina</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_HU.pdf')">Magyar</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_RO.pdf')">Română</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_BG.pdf')">Български</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_EL.pdf')">Ελληνικά</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_ET.pdf')">Eesti</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_LT.pdf')">Lietuvių</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_LV.pdf')">Latviešu</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_SL.pdf')">Slovenščina</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_HR.pdf')">Hrvatski</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_SR.pdf')">Srpski</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_MK.pdf')">Македонски</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_TR.pdf')">Türkçe</a></li>
+      <li><a onclick="loadDoc('Manual_v2.0_AR.pdf')">العربية</a></li>
     </ul>
-    <p>If the PDF does not display, <a href="#" onclick="openCurrentPdf(); return false;">click here to open it.</a></p>
+    <p>If the PDF does not display, <a onclick="openCurrentPdf()">click here to open it.</a></p>
   </div>
 
   <!-- ▼▼▼ v1.0 ▼▼▼ -->
   <div class="block">
     <h2>Language Versions – Manual v1.0 (Valid From: 2026‑04‑21)</h2>
     <ul>
-      <li><a href="Manual_v1.0_EN.pdf" onclick="loadDoc('Manual_v1.0_EN.pdf'); return false;">English</a></li>
-      <li><a href="Manual_v1.0_DE.pdf" onclick="loadDoc('Manual_v1.0_DE.pdf'); return false;">Deutsch</a></li>
-      <li><a href="Manual_v1.0_FR.pdf" onclick="loadDoc('Manual_v1.0_FR.pdf'); return false;">Français</a></li>
-      <li><a href="Manual_v1.0_IT.pdf" onclick="loadDoc('Manual_v1.0_IT.pdf'); return false;">Italiano</a></li>
-      <li><a href="Manual_v1.0_ES.pdf" onclick="loadDoc('Manual_v1.0_ES.pdf'); return false;">Español</a></li>
-      <li><a href="Manual_v1.0_PT.pdf" onclick="loadDoc('Manual_v1.0_PT.pdf'); return false;">Português</a></li>
-      <li><a href="Manual_v1.0_NL.pdf" onclick="loadDoc('Manual_v1.0_NL.pdf'); return false;">Nederlands</a></li>
-      <li><a href="Manual_v1.0_DA.pdf" onclick="loadDoc('Manual_v1.0_DA.pdf'); return false;">Dansk</a></li>
-      <li><a href="Manual_v1.0_SV.pdf" onclick="loadDoc('Manual_v1.0_SV.pdf'); return false;">Svenska</a></li>
-      <li><a href="Manual_v1.0_NO.pdf" onclick="loadDoc('Manual_v1.0_NO.pdf'); return false;">Norsk</a></li>
-      <li><a href="Manual_v1.0_FI.pdf" onclick="loadDoc('Manual_v1.0_FI.pdf'); return false;">Suomi</a></li>
-      <li><a href="Manual_v1.0_PL.pdf" onclick="loadDoc('Manual_v1.0_PL.pdf'); return false;">Polski</a></li>
-      <li><a href="Manual_v1.0_CS.pdf" onclick="loadDoc('Manual_v1.0_CS.pdf'); return false;">Čeština</a></li>
-      <li><a href="Manual_v1.0_SK.pdf" onclick="loadDoc('Manual_v1.0_SK.pdf'); return false;">Slovenčina</a></li>
-      <li><a href="Manual_v1.0_HU.pdf" onclick="loadDoc('Manual_v1.0_HU.pdf'); return false;">Magyar</a></li>
-      <li><a href="Manual_v1.0_RO.pdf" onclick="loadDoc('Manual_v1.0_RO.pdf'); return false;">Română</a></li>
-      <li><a href="Manual_v1.0_BG.pdf" onclick="loadDoc('Manual_v1.0_BG.pdf'); return false;">Български</a></li>
-      <li><a href="Manual_v1.0_EL.pdf" onclick="loadDoc('Manual_v1.0_EL.pdf'); return false;">Ελληνικά</a></li>
-      <li><a href="Manual_v1.0_ET.pdf" onclick="loadDoc('Manual_v1.0_ET.pdf'); return false;">Eesti</a></li>
-      <li><a href="Manual_v1.0_LT.pdf" onclick="loadDoc('Manual_v1.0_LT.pdf'); return false;">Lietuvių</a></li>
-      <li><a href="Manual_v1.0_LV.pdf" onclick="loadDoc('Manual_v1.0_LV.pdf'); return false;">Latviešu</a></li>
-      <li><a href="Manual_v1.0_SL.pdf" onclick="loadDoc('Manual_v1.0_SL.pdf'); return false;">Slovenščina</a></li>
-      <li><a href="Manual_v1.0_HR.pdf" onclick="loadDoc('Manual_v1.0_HR.pdf'); return false;">Hrvatski</a></li>
-      <li><a href="Manual_v1.0_SR.pdf" onclick="loadDoc('Manual_v1.0_SR.pdf'); return false;">Srpski</a></li>
-      <li><a href="Manual_v1.0_MK.pdf" onclick="loadDoc('Manual_v1.0_MK.pdf'); return false;">Македонски</a></li>
-      <li><a href="Manual_v1.0_TR.pdf" onclick="loadDoc('Manual_v1.0_TR.pdf'); return false;">Türkçe</a></li>
-      <li><a href="Manual_v1.0_AR.pdf" onclick="loadDoc('Manual_v1.0_AR.pdf'); return false;">العربية</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_EN.pdf')">English</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_DE.pdf')">Deutsch</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_FR.pdf')">Français</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_IT.pdf')">Italiano</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_ES.pdf')">Español</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_PT.pdf')">Português</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_NL.pdf')">Nederlands</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_DA.pdf')">Dansk</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_SV.pdf')">Svenska</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_NO.pdf')">Norsk</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_FI.pdf')">Suomi</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_PL.pdf')">Polski</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_CS.pdf')">Čeština</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_SK.pdf')">Slovenčina</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_HU.pdf')">Magyar</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_RO.pdf')">Română</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_BG.pdf')">Български</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_EL.pdf')">Ελληνικά</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_ET.pdf')">Eesti</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_LT.pdf')">Lietuvių</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_LV.pdf')">Latviešu</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_SL.pdf')">Slovenščina</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_HR.pdf')">Hrvatski</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_SR.pdf')">Srpski</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_MK.pdf')">Македонски</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_TR.pdf')">Türkçe</a></li>
+      <li><a onclick="loadDoc('Manual_v1.0_AR.pdf')">العربية</a></li>
     </ul>
-    <p>If the PDF does not display, <a href="#" onclick="openCurrentPdf(); return false;">click here to open it.</a></p>
+    <p>If the PDF does not display, <a onclick="openCurrentPdf()">click here to open it.</a></p>
   </div>
 
-  <!-- 初期表示用の iframe（とりあえず v2.0 英語版を表示） -->
+  <!-- ▼▼▼ PDF 表示エリア ▼▼▼ -->
   <iframe id="docFrame" src="Manual_v2.0_EN.pdf?t=initial"></iframe>
 
 </div>
