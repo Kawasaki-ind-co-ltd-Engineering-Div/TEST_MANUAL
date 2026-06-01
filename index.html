@@ -118,7 +118,6 @@
 
 <body>
 
-<!-- ★ 青帯は元のまま ★ -->
 <div class="top-header">
   <h1>Supplementary Parts and Dealer Options – Instructions for Use</h1>
   <p>Manufacturer: Kawasaki Industrial Co., Ltd.</p>
@@ -126,7 +125,6 @@
 
 <div class="container">
 
-  <!-- ★ モデル番号を完全削除したカード部分 ★ -->
   <div class="card">
     <h2>Pantograph Jack Instruction Manuals</h2>
 
@@ -141,7 +139,6 @@
     </div>
   </div>
 
-  <!-- ▼▼▼ v2.0 ▼▼▼ -->
   <div class="block">
     <h2>Language Versions – Manual v2.0 (Valid From: 2026‑05‑25~)</h2>
     <ul>
@@ -174,7 +171,6 @@
     </ul>
   </div>
 
-  <!-- ▼▼▼ v1.0 ▼▼▼ -->
   <div class="block">
     <h2>Language Versions – Manual v1.0 (Valid From: 2026‑04‑21~)</h2>
     <ul>
@@ -207,15 +203,20 @@
     </ul>
   </div>
 
-  <!-- ▼▼▼ PDF 表示エリア ▼▼▼ -->
-  <iframe id="docFrame" src="Manual_v2.0_EN.pdf?t=initial"></iframe>
+  <iframe id="docFrame"></iframe>
 
-  <!-- ▼▼▼ click here ▼▼▼ -->
   <div class="fallback-area">
     If the PDF does not display, <a onclick="openCurrentPdf()">click here to open it.</a>
   </div>
 
 </div>
+
+<script>
+  // 初期表示のPDFにもキャッシュ破壊パラメータを付ける
+  window.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("docFrame").src = "Manual_v2.0_EN.pdf?t=" + Date.now();
+  });
+</script>
 
 </body>
 </html>
